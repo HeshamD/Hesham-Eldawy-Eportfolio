@@ -1,0 +1,108 @@
+/** Global styling  */
+
+html{
+    box-sizing: border-box;
+}
+
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+body{
+    color: #343434;
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 2em;
+}
+
+img{
+    width: 30%;
+}
+
+a{
+    color: #ffe66d;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 5em;
+}
+
+h2{
+    margin: 0;
+    font-size: 45px;
+}
+h1,h2{
+    font-weight: 400;
+}
+
+.content-wrap{
+
+    width: 60%;
+    margin: 0 auto;
+    padding: 60px 0; /** meaning top and bottom 60 and left and right 0 */
+
+}
+
+
+
+/********* Profile************/
+
+header{
+    background-color: #2f3061;
+    color: white;
+}
+
+
+/********* Projects ************/
+
+.projects{
+    background-color: #f7fff7;
+}
+
+.projects a{
+    color: white;
+    background-color: #2f3061;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.projects a:hover{
+    opacity: 80%;
+}
+
+
+/********* Work Experience ************/
+.workExperience{
+    background-color: #a1c6d7;
+}
+
+
+/********* Education ************/
+.education{
+
+}
+
+/********* footer ************/
+footer{
+    background-color: #343434;
+    color: white;
+}
+
+footer a{
+    margin: 10px;
+}
+
+
+/** Responsive */
+
+@media screen and (min-width:767px){
+    
+}
+
+@media screen and (max-width:767px){
+    
+}
