@@ -54,6 +54,12 @@ header{
     color: white;
 }
 
+/********* Technincal Skills ************/
+.techExperience ul{
+    columns: 2;
+    -webkit-columns: 3;
+    -moz-columns: 2;
+}
 
 /********* Projects ************/
 
@@ -80,11 +86,13 @@ header{
     background-color: #a1c6d7;
 }
 
+/********* Related Experience ************/
+.relatedExperience{
+    background-color:aquamarine;
+}
+
 
 /********* Education ************/
-.education{
-
-}
 
 /********* footer ************/
 footer{
