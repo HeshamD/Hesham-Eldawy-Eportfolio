@@ -57,7 +57,7 @@ header{
 /********* Technincal Skills ************/
 .techExperience ul{
     columns: 2;
-    -webkit-columns: 1;
+    -webkit-columns: 2;
     -moz-columns: 2;
 }
 
@@ -122,5 +122,11 @@ footer a{
     }
     h2{
         line-height: 1em;
+    }
+
+    .techExperience ul{
+        columns: 2;
+        -webkit-columns: 1;
+        -moz-columns: 2;
     }
 }
