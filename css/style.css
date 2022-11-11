@@ -57,7 +57,7 @@ header{
 /********* Technincal Skills ************/
 .techExperience ul{
     columns: 2;
-    -webkit-columns: 3;
+    -webkit-columns: 1;
     -moz-columns: 2;
 }
 
